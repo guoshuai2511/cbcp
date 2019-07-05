@@ -1,0 +1,59 @@
+{
+	"retcode": 1,
+	"dataList": null,
+	"dataSet": null,
+	"dataMap": {
+		"roleDetail": {
+			"roleId": 10,
+			"roleName": "123",
+			"remark": "222",
+			"createrId": 133,
+			"createTime": 1561455431000,
+			"updaterId": 139,
+			"updateTime": 1561531712000,
+			"userNum": null,
+			"menuList": [{
+				"menuId": 18,
+				"name": "个人中心",
+				"url": "/systemManage/userCenter",
+				"type": null,
+				"remark": null,
+				"level": null,
+				"parentId": null,
+				"childMenu": null
+			}, {
+				"menuId": 59,
+				"name": "查询个人信息",
+				"url": "res:querySelfUserInfo",
+				"type": null,
+				"remark": null,
+				"level": null,
+				"parentId": null,
+				"childMenu": null
+			}, {
+				"menuId": 60,
+				"name": "修改个人信息",
+				"url": "res:updateSelfUserInfo",
+				"type": null,
+				"remark": null,
+				"level": null,
+				"parentId": null,
+				"childMenu": null
+			}],
+			"roleData": {
+				"roleId": 10,
+				"dataType": 1,
+				"otherDeptIds": "",
+				"otherDevCodes": "",
+				"createrId": 0,
+				"createTime": null,
+				"updaterId": 0,
+				"updateTime": null
+			}
+		}
+	},
+	"pageInfo": null,
+	"totalCount": 0,
+	"error": null,
+	"message": null
+}

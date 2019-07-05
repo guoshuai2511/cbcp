@@ -1,0 +1,333 @@
+.myCosButton:hover {
+	color: #fff;
+}
+
+/*滚动条样式*/
+.tag-list-dropdown-menu::-webkit-scrollbar { /*滚动条整体样式*/
+	width: 6px; /*高宽分别对应横竖滚动条的尺寸*/
+	height: 4px;
+}
+
+.tag-list-dropdown-menu::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.tag-list-dropdown-menu::-webkit-scrollbar-track { /*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+/* 模态框样式*/
+.input-check {
+	float: left;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.modal-input {
+	width: 550px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.modal-input-title {
+	width: 130px;
+	text-align: right;
+	color: #dedede;
+	background: rgba(0, 0, 0, 0) !important;
+	border: none;
+	font-size: 13px !important;
+}
+
+.modal-input-area {
+	width: 200px !important;
+}
+
+.modal-input-area:disabled {
+	background: rgb(70, 70, 70);
+}
+
+.modal-input-background {
+	background: rgb(40, 40, 40);
+	color: #fff;
+	font-size:12px;
+}
+
+.input-check {
+	float: left;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #222222;
+}
+
+.input-check-warning {
+	color: #ff0000;
+}
+
+.submit-loading {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0, 0, 0, 0);
+	z-index: 9999;
+	display: none;
+}
+
+.loading-area {
+	width: 180px;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -90px;
+	margin-top: -30px;
+	background: #333333;
+	border-radius: 5px;
+	line-height: 50px;
+}
+
+.loading-gif {
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	margin-top: -18px;
+}
+
+.loading-word {
+	color: #ffffff;
+	font-size: 18px;
+	margin-left: 60px;
+}
+
+.dropdown-menu li {
+	cursor: pointer;
+}
+
+.is-password-change {
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	left: 350px;
+	top: 72px;
+}
+
+.btn-group-show-value {
+	height: 30px;
+}
+
+.dropdown-menu-selector {
+	color: #dedede !important;
+}
+
+.dropdown-menu-selector:hover {
+	background: rgba(140, 140, 140, 0.4) !important;
+}
+
+.modal-header {
+	border-bottom: 1px solid #23b5e8;
+	width: 95%;
+    margin-left: 20px;
+}
+
+.modal-title {
+	color: rgb(35, 220, 255);
+}
+
+.modal-content {
+	top: 50px;
+	background:#08264a;
+	color: #fff;
+}
+
+.modal-footer {
+	border-top: 1px solid #08264a;
+}
+/* -END- 模态框样式*/
+.grade-star-container {
+	width: 160px;
+}
+
+.grade-star-icon {
+	width: 22px;
+	height: 21px;
+	position: relative;
+	float: left;
+	margin-top: 4px;
+	margin-right: 10px;
+	background: url(../../img/icon-lib.png) no-repeat;
+	background-position: -240px -30px;
+	cursor: pointer;
+}
+
+.grade-star-container-intable {
+	height: 30px;
+}
+
+.grade-star-icon-intable {
+	width: 22px;
+	height: 21px;
+	position: relative;
+	float: left;
+	margin-top: 4px;
+	margin-right: 10px;
+	background: url(../../img/icon-lib.png) no-repeat;
+	background-position: -240px -30px;
+	cursor: default;
+}
+
+.grade-star-reset {
+	position:absolute;
+	width:50px;
+	float: left;
+	margin-left: 7px;
+	color: #dedede;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.grade-star-reset:hover {
+	color: rgb(35, 200, 255);
+	text-decoration: underline;
+}
+
+.search-simple-rule{
+	border-left:1px solid #03172f;
+	border-right:1px solid #0e3463;
+	height: 52px;
+	margin-top: 14px;
+	float: left;
+}
+#table-view-container-box{
+		height:80px;
+	}
+.search-type-all{
+	display:none;
+}
+#custom-type-input{
+	margin-left:10px;
+}
+.search-item{
+	margin-right:30px;
+}
+@media screen and (max-width: 1511px) {
+	.search-item{
+		margin-top:9px;
+	}
+	.input-data-picker-md{
+		width:136px !important;
+	}
+	#custom-type-input{
+		margin-left:0px;
+	}
+}
+input::-webkit-input-placeholder{
+    color:#fff !important;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#fff !important;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#fff !important;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#fff !important;
+}
+@media screen and (max-width: 1452px) {
+	.time-range-selector{
+		margin-top:18px !important;
+	}
+	.input-data-picker-md{
+		width:100px !important;
+	}
+}
+
+.table-td-used-devs{
+	width:97%;
+}
+.dev-mana{
+	width:364px;
+}
+
+
+@media screen and (max-width: 1440px) {
+	.table-td-used-devs{
+		width:275px;
+	}
+	.dev-mana{
+		width:280px;
+	}
+	.tbody-tr{
+		font-size:13px;
+	}
+}
+@media screen and (max-width: 1366px) {
+	.table-td-used-devs{
+		width:170px;
+	}
+	.dev-mana{
+		width:180px;
+	}
+	.search-item{
+		margin-right:0px;
+	}
+}
+#table-tbody tr:nth-child(even) {
+    background-color: #07203e;
+}
+
+#table-tbody tr:nth-child(odd) {
+    background-color: rgba(23,193, 244, 0.1);
+}
+
+#table-tbody tr:nth-child(1) {
+    background-color: rgba(23,193, 244, 0.4);
+}
+td div{
+	margin: 0 auto;
+}
+.caret{
+	display: block;
+    float: left;
+    margin-top: 3px;
+    width: 12px;
+    height: 12px;
+    border: none;
+    margin-left: 6px;
+    background: url(../../img/usermanageicon/slidedown3x.png);
+    background-size: 100% 100%;
+}
+/*模态框input样式*/
+#caseName-input,#tag-input,#reviewStatus-button,#remark-input{
+	border:1px solid #174275;
+	background:#011731;
+}
+.input-group-title{
+	text-align:left;
+}
+#query-case-name{
+	width: 244px;
+    margin-left: 8px;	
+}
+
+.time-range-selector{
+	margin-top: 34px;
+}
+#query-tag{
+	width: 244px;
+    margin-left: 6px;
+}
+@media screen and (max-width: 1536px){
+	.search-item{
+		margin-top: 24px;
+	}
+	.time-range-selector{
+		margin-top: 28px;
+	}
+}

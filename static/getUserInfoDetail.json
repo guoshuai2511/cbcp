@@ -1,0 +1,71 @@
+{
+	"retcode": 1,
+	"dataList": null,
+	"dataSet": null,
+	"dataMap": {
+		"user": {
+			"id": 136,
+			"username": "ceshi2019",
+			"realname": "测试2019",
+			"password": "929c2d64233a2a78f78b9d4c27029774",
+			"salt": "eaeb21c8482271aefc079a018307e07a",
+			"headAddr": "",
+			"sex": 0,
+			"tel": "13343201921",
+			"deptId": 1,
+			"deptName": null,
+			"lastLoginIp": "",
+			"lastLoginTime": null,
+			"locked": 0,
+			"status": 1,
+			"type": 1,
+			"createrId": 9,
+			"createTime": 1560419440000,
+			"updaterId": 124,
+			"updateTime": 1560499393000,
+			"handleCaseSeq": null,
+			"roleList": [{
+				"roleId": 4,
+				"roleName": "普通用户",
+				"remark": null,
+				"createrId": null,
+				"createTime": null,
+				"updaterId": null,
+				"updateTime": null,
+				"userNum": null,
+				"menuList": null,
+				"roleData": null
+			}, {
+				"roleId": 10,
+				"roleName": "test",
+				"remark": null,
+				"createrId": null,
+				"createTime": null,
+				"updaterId": null,
+				"updateTime": null,
+				"userNum": null,
+				"menuList": null,
+				"roleData": null
+			}],
+			"dwPerms": {
+				"userId": 136,
+				"devUseType": 2,
+				"devPermsStartTime": 1560499383000,
+				"devPermsEndTime": 1560499385000,
+				"createTime": 1560419440000,
+				"updateTime": 1560499393000
+			},
+			"taPerms": {
+				"userId": 136,
+				"appTaType": null,
+				"webTaType": null
+			},
+			"dept": null,
+			"credentialsSalt": "ceshi2019eaeb21c8482271aefc079a018307e07a"
+		}
+	},
+	"pageInfo": null,
+	"totalCount": 0,
+	"error": null,
+	"message": null
+}

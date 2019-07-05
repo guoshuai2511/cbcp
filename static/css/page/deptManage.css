@@ -1,0 +1,373 @@
+/*滚动条样式*/
+textarea, .dept-content-area-each::-webkit-scrollbar { /*滚动条整体样式*/
+	width: 6px; /*高宽分别对应横竖滚动条的尺寸*/
+	height: 4px;
+}
+
+textarea, .dept-content-area-each::-webkit-scrollbar-thumb {
+	/*滚动条里面小方块*/
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: rgba(255, 255, 255, 0.4);
+}
+
+textarea, .dept-content-area-each::-webkit-scrollbar-track { /*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.modal-input {
+	margin-top: 30px;
+}
+
+.modal-input-title {
+	width: 150px;
+	text-align: right;
+	color: #dedede;
+	background: rgba(0, 0, 0, 0) !important;
+	border: none;
+	font-size: 13px !important;
+	color:#fff;
+}
+
+.modal-input-area {
+	width: 200px !important;
+}
+
+.modal-input-area:disabled {
+	background: rgb(70, 70, 70) !important;
+}
+
+.modal-input-background {
+	border-color: rgb(150, 150, 150);
+	background: rgb(40, 40, 40) !important;
+	color: #dedede;
+}
+
+.input-tip-img {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.dropdown-menu-selector:hover {
+	background: rgba(140, 140, 140, 0.4) !important;
+}
+
+.dept-btn-area {
+	position: relative;
+	z-index: 100;
+}
+
+.dept-control-btn {
+	color: #fff !important;
+	margin-right: 5px;
+}
+
+.dept-content-area {
+	width: 96%;
+	position: relative;
+	margin-top: 20px;
+}
+
+.dept-content-area-each {
+	height:98%;
+	position: relative;
+	float: left;
+	border: 1px solid #174275;
+	border-radius: 5px;
+	overflow: auto;
+	margin-right:2%;
+	height: 600px;
+}
+
+.dept-personnel {
+	width: 300px;
+	height: auto;
+	min-height: 74px;
+	background: rgb(40, 40, 40);
+	border: 1px solid rgb(150, 150, 150);
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.each-divinner-item {
+	position: relative;
+	float: left;
+	padding: 3px 5px 3px 5px;
+	margin: 3px 6px 2px 3px;
+	color: #dedede;
+	background: #011731;
+	cursor: pointer;
+}
+
+.update-btn {
+	position: relative;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+
+.input-check {
+	float: left;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.dept-modal-area {
+	width: 46%;
+	position: relative;
+	float: left;
+	margin-left: 1%;
+	margin-right: 3%;
+}
+
+.dept-selector-modal-title {
+	height: 30px;
+	position: relative;
+	line-height: 30px;
+	color:#23b5e8;
+}
+
+.dept-selector-modal-container {
+	width: 100%;
+	height: 470px;
+	bottom: 0;
+	border: 1px solid #174275;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+.item-close {
+	font-size: 12px;
+}
+
+.submit-loading {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0, 0, 0, 0);
+	z-index: 9999;
+	display: none;
+}
+
+.loading-area {
+	width: 180px;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -90px;
+	margin-top: -30px;
+	background: #333333;
+	border-radius: 5px;
+	line-height: 50px;
+}
+
+.loading-gif {
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	margin-top: -18px;
+}
+
+.loading-word {
+	color: #ffffff;
+	font-size: 18px;
+	margin-left: 60px;
+}
+
+/* 模态框中表格样式*/
+.view-data-table-in-modal {
+	width: 96%;
+	position: relative;
+	margin-top: 15px;
+	left: 2%;
+	color: #dedede;
+	border-left: 1px solid #174275 !important;
+	border-top: 1px solid #174275 !important;
+}
+
+.modal-in-page-selector {
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 30px;
+}
+
+.no-data-tablesarch-in-modal {
+	display: none;
+	width: 320px;
+	height: 70px;
+	margin-left: calc(50% - 170px);
+	margin-top: 165px;
+	font-size: 25px;
+	color: rgb(14, 144, 210);
+	text-align: center;
+	line-height: 70px;
+}
+
+.no-data-icon-in-modal {
+	width: 70px;
+	height: 70px;
+}
+
+.no-data-word-in-modal {
+	margin-left: 10px;
+}
+
+td{
+	text-align: center;
+}
+.table-view-container {
+	width: 96%;
+	left: 37px;
+}
+#table-tbody tr:nth-child(even) {
+	background-color: #07203e;
+}
+
+#table-tbody tr:nth-child(odd) {
+	background-color: rgba(23,193, 244, 0.1);
+}
+
+#table-tbody tr:nth-child(1) {
+	background-color: rgba(23,193, 244, 0.4);
+}
+@media screen and (max-width: 1440px){
+	.tbody-tr {
+		font-size: 13px;
+	}
+}
+#dept-update-input-name ,#dept-update-input-parentId ,#dept-update-input-remark{
+	border:1px solid #174275;
+	background-color:#011731 !important;
+}
+
+.dept-modal-area-one {
+	width:98%;
+}
+
+.dept-modal-area-2 {
+	width:98%;
+}
+.selector-modal-box{
+	overflow-y: scroll;
+}
+.selector-modal-box::-webkit-scrollbar { /*滚动条整体样式*/
+	width: 8px; 
+	height: 10px;
+}
+
+.selector-modal-box::-webkit-scrollbar-arrow { /*滚动条整体样式*/
+	color:#f2f2f3;
+}
+
+.selector-modal-box::-webkit-scrollbar-button{/*滚动条两端的按钮，可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果（位置2）*/
+	height: 10px;
+	width:8px;
+}
+
+.selector-modal-box::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: #17c1f4;
+}
+
+.selector-modal-box::-webkit-scrollbar-track { /*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0;
+	background:#08264a;
+}
+
+.dept-selector-modal-container-selected{
+	height:36px;
+	background: #011731;
+}
+.dept-selector-modal-container-selected::-webkit-scrollbar { /*滚动条整体样式*/
+	width: 8px; 
+	height: 10px;
+}
+
+.dept-selector-modal-container-selected::-webkit-scrollbar-arrow { /*滚动条整体样式*/
+	color:#f2f2f3;
+}
+
+.dept-selector-modal-container-selected::-webkit-scrollbar-button{/*滚动条两端的按钮，可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果（位置2）*/
+	height: 10px;
+	width:8px;
+}
+
+.dept-selector-modal-container-selected::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: #17c1f4;
+}
+
+.dept-selector-modal-container-selected::-webkit-scrollbar-track { /*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0;
+}
+#dept-content-title{
+	color:#00ffff;
+}
+.dept_input{
+	background-color: #011731 !important;
+	width: 200px !important;
+	height: 30px;
+	float: left;
+	display: block;
+	border: 1px solid #174275;
+	margin-left:16px;
+	color:#fff;
+	font-size: 13px;
+	padding-left: 6px;
+	line-height: 30px;
+}
+.dept_input[disabled]:hover{
+	cursor:not-allowed;
+}
+.dept_text_area{
+	border: 1px solid #174275;
+	background-color: #011731 !important;
+	margin-left:16px;
+	color:#fff;
+	padding-left:6px;
+}
+.text-red {
+	color: rgb(255, 120, 120);
+}
+.input-group{
+	margin-top:12px;
+}
+.node_name{
+	font-size:14px;
+	cursor: pointer;
+}
+.view-user-btn{
+	margin-left: 70px;
+	margin-top: 50px;
+	margin-bottom: 12px;
+	background:#2196f3;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+	padding: 6px 14px;
+	border-radius: 6px;
+}
+#update-dept-btn{
+	background: green;
+	border:none;
+	cursor: pointer;
+	color:#fff !important;
+	padding: 6px 14px;
+	border-radius: 6px;
+}
+*{
+	outline:none !important;
+}

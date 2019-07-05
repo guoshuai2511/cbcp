@@ -1,0 +1,251 @@
+[{
+	"carHaveOnlined": true,
+	"caseSerial": "4115494a83f54af2987a8e253c520ea7",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559709197621,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00068"],
+	"offlineUserMap": {
+		"JT400C001-H_00068;108": {
+			"seq": 37,
+			"userId": 108,
+			"userName": "yanglu"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559708530000,
+	"status": 0,
+	"teamId": "36639",
+	"userMap": {}
+}, {
+	"areaCode": "450602",
+	"areaFullName": "广西壮族自治区防城港市港口区",
+	"carHaveOnlined": true,
+	"caseSerial": "5f862ac8bbad413c8b2f301b33264d72",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559511741492,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00201"],
+	"offlineUserMap": {
+		"JT400C001-H_00201;80": {
+			"seq": 27,
+			"userId": 80,
+			"userName": "peixingjie"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559509765000,
+	"status": 0,
+	"targetKey": "bdaihjacibj",
+	"teamId": "37243",
+	"userMap": {}
+}, {
+	"areaCode": "450602",
+	"areaFullName": "广西壮族自治区防城港市港口区",
+	"carHaveOnlined": true,
+	"caseSerial": "2524fe19782b4fdb9ed1e99a2db92a23",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559506675417,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00201"],
+	"offlineUserMap": {
+		"JT400C001-H_00201;80": {
+			"seq": 26,
+			"userId": 80,
+			"userName": "peixingjie"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559505679000,
+	"status": 0,
+	"teamId": "37243",
+	"userMap": {}
+}, {
+	"areaCode": "450602",
+	"areaFullName": "广西壮族自治区防城港市港口区",
+	"carHaveOnlined": true,
+	"caseSerial": "06ba8d7198fd40ce833e37a6a761cff5",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559500311885,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00201"],
+	"offlineUserMap": {
+		"JT400C001-H_00201;80": {
+			"seq": 25,
+			"userId": 80,
+			"userName": "peixingjie"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559493925000,
+	"status": 0,
+	"targetKey": "bifihfaaaab",
+	"teamId": "37243",
+	"userMap": {}
+}, {
+	"areaCode": "450602",
+	"areaFullName": "广西壮族自治区防城港市港口区",
+	"carHaveOnlined": true,
+	"caseSerial": "58ee4b17875e4dc9a9cc9f04f5122cb5",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559492991670,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00201"],
+	"offlineUserMap": {
+		"JT400C001-H_00201;80": {
+			"seq": 24,
+			"userId": 80,
+			"userName": "peixingjie"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559488425000,
+	"status": 0,
+	"teamId": "37243",
+	"userMap": {}
+}, {
+	"areaCode": "450602",
+	"areaFullName": "广西壮族自治区防城港市港口区",
+	"carHaveOnlined": true,
+	"caseSerial": "8df11302aad44ce8a1a9dc487b72a94c",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559413210100,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00201"],
+	"offlineUserMap": {
+		"JT400C001-H_00201;80": {
+			"seq": 23,
+			"userId": 80,
+			"userName": "peixingjie"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559411412000,
+	"status": 0,
+	"targetKey": "bifhhbjgagh",
+	"teamId": "37243",
+	"userMap": {}
+}, {
+	"areaCode": "450602",
+	"areaFullName": "广西壮族自治区防城港市港口区",
+	"carHaveOnlined": true,
+	"caseSerial": "577698cbcd804744b927f97d3e4a9550",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559406765957,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00201"],
+	"offlineUserMap": {
+		"JT400C001-H_00201;80": {
+			"seq": 21,
+			"userId": 80,
+			"userName": "peixingjie"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559399371000,
+	"status": 0,
+	"targetKey": "bifhhbjgagh",
+	"teamId": "37243",
+	"userMap": {}
+}, {
+	"areaCode": "450603",
+	"areaFullName": "广西壮族自治区防城港市防城区",
+	"carHaveOnlined": true,
+	"caseSerial": "cc8ad153e76543d8afde6b09da6c5b30",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559338692271,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00201"],
+	"offlineUserMap": {
+		"JT400C001-H_00201;4": {
+			"seq": 59,
+			"userId": 4,
+			"userName": "chenliang"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559336876000,
+	"status": 0,
+	"targetKey": "bifhhaaedef",
+	"teamId": "37243",
+	"userMap": {}
+}, {
+	"areaCode": "450602",
+	"areaFullName": "广西壮族自治区防城港市港口区",
+	"carHaveOnlined": true,
+	"caseSerial": "7a1fda16e5704c429a4f616633892cb3",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559331507314,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00201", "JT400D001_00181"],
+	"offlineUserMap": {
+		"JT400C001-H_00201;4": {
+			"seq": 58,
+			"userId": 4,
+			"userName": "chenliang"
+		},
+		"JT400D001_00181;4": {
+			"seq": 58,
+			"userId": 4,
+			"userName": "chenliang"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559328361000,
+	"status": 0,
+	"targetKey": "bifhhabddfg",
+	"teamId": "37243",
+	"userMap": {}
+}, {
+	"areaCode": "450602",
+	"areaFullName": "广西壮族自治区防城港市港口区",
+	"carHaveOnlined": true,
+	"caseSerial": "8d335b0fbc42430a99aa75445b37fef0",
+	"caseType": 0,
+	"devCodeList": [],
+	"endTime": 1559319113755,
+	"endType": 0,
+	"offlineDevCodeList": ["JT400C001-H_00201"],
+	"offlineUserMap": {
+		"JT400C001-H_00201;80": {
+			"seq": 19,
+			"userId": 80,
+			"userName": "peixingjie"
+		}
+	},
+	"reviewStatus": 0,
+	"sceneType": 0,
+	"score": 60,
+	"startTime": 1559315024000,
+	"status": 0,
+	"targetKey": "bigahhacjbc",
+	"teamId": "37243",
+	"userMap": {}
+}]

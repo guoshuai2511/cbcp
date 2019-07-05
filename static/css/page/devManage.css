@@ -1,0 +1,442 @@
+.mdui-checkbox-icon {
+	border-color: #BBBBBB;
+}
+
+.mdui-checkbox-icon:after {
+
+	border-color: #BBBBBB;
+	/*边框颜色 #BBBBBB*/
+}
+
+.mdui-theme-accent-pink .mdui-checkbox input[type=checkbox]:checked+.mdui-checkbox-icon:after
+	{
+	background: #00baff;
+	border-color: #BBBBBB;
+}
+
+.mdui-checkbox input[type=checkbox]:checked+.mdui-checkbox-icon:after {
+	background: #00baff;
+	border-color: #BBBBBB;
+}
+
+.mdui-checkbox-icon:after {
+	border-color: #bbb;
+}
+
+.mdui-checkbox input[type=checkbox]:checked+.mdui-checkbox-icon:after {
+	background-color: #00baff;
+	border-color: #00baff;
+}
+
+.modal-input {
+	width: 490px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	left: 112px;
+	position: relative;
+}
+
+.modal-input-title {
+	width: 100px;
+	text-align: right;
+	color: #dedede;
+	background: rgba(0, 0, 0, 0) !important;
+	border: none;
+	font-size: 13px !important;
+}
+
+.modal-input-area {
+	width: 200px !important;
+}
+
+.modal-input-area:disabled {
+	background: rgb(70, 70, 70);
+}
+
+.modal-input-background {
+	background: #011731;
+	color: #dedede;
+	border:1px solid #174275;
+}
+
+.input-check {
+	float: left;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #222222;
+}
+
+.input-check-warning {
+	color: #ff0000;
+}
+
+.submit-loading {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0, 0, 0, 0);
+	z-index: 9999;
+	display: none;
+}
+
+.loading-area {
+	width: 180px;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -90px;
+	margin-top: -30px;
+	background: #333333;
+	border-radius: 5px;
+	line-height: 50px;
+}
+
+.loading-gif {
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	margin-top: -18px;
+}
+
+.loading-word {
+	color: #ffffff;
+	font-size: 18px;
+	margin-left: 60px;
+}
+
+.dropdown-menu li {
+	cursor: pointer;
+}
+
+.is-password-change {
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	left: 350px;
+	top: 72px;
+}
+
+.btn-group-show-value {
+	height: 30px;
+}
+
+.dropdown-menu-selector {
+	color: #dedede !important;
+}
+
+.dropdown-menu-selector:hover {
+	background: rgba(140, 140, 140, 0.4) !important;
+}
+
+.dept-input-container {
+	width: 200px;
+	height: 30px;
+	position: relative;
+	float: left;
+	padding-left: 10px;
+	background: #011731;
+	border: 1px solid #174275;
+	border-radius: 3px;
+	line-height: 28px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.role-input-container {
+	width: auto;
+	min-width: 200px;
+	max-width: 300px;
+	height: auto;
+	min-height: 30px;
+	position: relative;
+	float: left;
+	padding-left: 10px;
+	background: rgb(40, 40, 40);
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.dept-modal-area {
+	position: relative;
+	float: left;
+	margin-left: 1.5%;
+	margin-right: 3%;
+}
+
+.dept-modal-area-one {
+	width:98%;
+}
+
+.dept-modal-area-2 {
+	width:98%;
+}
+
+.dept-selector-modal-title {
+	height: 30px;
+	position: relative;
+	line-height: 30px;
+	color:#23b5e8;
+}
+
+.dept-selector-modal-container {
+	width: 99%;
+	height: 470px;
+	bottom: 0;
+	border: 1px solid #174275;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+.each-divinner-item {
+	position: relative;
+	float: left;
+	padding: 3px 5px 3px 5px;
+	margin: 3px 6px 2px 3px;
+	color: #dedede;
+	background: #011731;
+	cursor: pointer;
+}
+
+.item-close {
+	font-size: 12px;
+}
+
+.role-selector-each-items {
+	margin-left: 20px;
+}
+
+.role-selector-each-items-words {
+	color: #dedede;
+	font-weight: 100;
+	margin-left: 25px;
+}
+
+.dev-info-table {
+	width: 500px;
+	margin-left: 33px;
+	line-height: 35px;
+}
+
+.dev-info-table tr td {
+	border: 1px solid #aaa;
+}
+
+.dev-info-name {
+	text-align: center;
+}
+
+.dev-info-value {
+	padding-left: 15px;
+}
+
+
+#table-tbody tr:nth-child(even) {
+	background-color: #07203e;
+}
+
+#table-tbody tr:nth-child(odd) {
+	background-color: rgba(23,193, 244, 0.1);
+}
+
+#table-tbody tr:nth-child(1) {
+	background-color: rgba(23,193, 244, 0.4);
+}
+.search-simple-rule {
+	border-left: 1px solid #03172f;
+	border-right: 1px solid #0e3463;
+	height: 52px;
+	margin-top: 14px;
+	float: left;
+}
+
+@media screen and (max-width: 1440px){
+	.tbody-tr {
+		font-size: 13px;
+	}
+}
+
+.caret{
+	display: block;
+	float: left;
+	margin-top: 3px;
+	width: 12px;
+	height: 12px;
+	border: none;
+	margin-left: 6px;
+	background: url(../../../static/img/usermanageicon/slidedown3x.png);
+	background-size: 100% 100%;
+}
+.mdui-checkbox-icon{
+	width: 12px;
+	height: 12px;
+	left:28%;
+	border: 1px solid #fff;
+	border-radius: 0px;
+	top:15px;
+}
+.mdui-checkbox-icon:before{
+	left: -3px;
+	top:-1px;
+	width: 7px;
+	height: 12px;
+}
+.mdui-checkbox-icon:after{
+	top: -1px;
+	left: -1px;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #fff;
+	border-radius: 0px;
+}
+.delete-user-um{
+	border-right:none;
+}
+
+.btn:focus{
+	outline:none !important;
+}
+.btn-primary:hover{
+	color:#fff;
+	background-color: #23b5e8;
+}
+.btn-default:hover{
+	background-color:#fff;
+}
+
+.update-user-um {
+border-left: none;
+}
+.dept-selector-modal-container-selected{
+	height:36px;
+	background:#011731;
+}
+.dept-selector-modal-container-selected::-webkit-scrollbar { /*滚动条整体样式*/
+	width: 8px; 
+	height: 10px;
+}
+
+.dept-selector-modal-container-selected::-webkit-scrollbar-arrow { /*滚动条整体样式*/
+	color:#f2f2f3;
+}
+
+.dept-selector-modal-container-selected::-webkit-scrollbar-button{/*滚动条两端的按钮，可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果（位置2）*/
+	height: 10px;
+	width:8px;
+}
+
+.dept-selector-modal-container-selected::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: #17c1f4;
+}
+
+.dept-selector-modal-container-selected::-webkit-scrollbar-track { /*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0;
+}
+.selector-modal-box{
+	overflow-y: scroll;
+}
+.selector-modal-box::-webkit-scrollbar { /*滚动条整体样式*/
+	width: 8px; 
+	height: 10px;
+}
+
+.selector-modal-box::-webkit-scrollbar-arrow { /*滚动条整体样式*/
+	color:#f2f2f3;
+}
+
+.selector-modal-box::-webkit-scrollbar-button{/*滚动条两端的按钮，可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果（位置2）*/
+	height: 10px;
+	width:8px;
+}
+
+.selector-modal-box::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: #17c1f4;
+}
+
+.selector-modal-box::-webkit-scrollbar-track { /*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0;
+	background:#08264a;
+} 
+.dept-selector-ensure{
+	display: block;
+	margin-left: 21%;
+	float: left;
+	width: 140px;
+	border-radius: 16px;
+	background-color: #23b5e8;
+	margin-top:8px;
+}
+.dept-selector-cancel{
+	margin-left: 28%;
+	display: block;
+	width: 140px;
+	float: left;
+	border-radius: 16px;
+	margin-top:8px;
+}
+.modal-body{
+	overflow: hidden;
+}
+.dev-position-map{
+	width: 100%;
+	height: 500px;
+}
+#disCode-input:disabled {
+	background: rgb(70, 70, 70) !important;
+}
+
+#query-id{
+	color:#fff;
+}
+.vehicle-select-item{
+	width: 100%;
+	padding-left:10px;
+	line-height: 30px;
+	height: 30px;
+	cursor:pointer;
+	color: #fff;
+}
+.vehicle-select-item:hover{
+	background:rgba(255,255,255,0.2);
+}
+#dev-query-selector-container::-webkit-scrollbar { /*滚动条整体样式*/
+	width: 8px; 
+	height: 10px;
+}
+
+#dev-query-selector-container::-webkit-scrollbar-arrow { /*滚动条整体样式*/
+	color:#f2f2f3;
+}
+
+#dev-query-selector-container::-webkit-scrollbar-button{/*滚动条两端的按钮，可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果（位置2）*/
+	height: 10px;
+	width:8px;
+}
+
+#dev-query-selector-container::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: #17c1f4;
+}
+
+#dev-query-selector-container::-webkit-scrollbar-track { /*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0;
+	background:#08264a;
+}
+.abbreviation{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
