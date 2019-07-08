@@ -227,8 +227,8 @@
 
 		<div class="submit-loading">
 			<div class="loading-area">
-				<img class="loading-gif" src="img/loading.gif"> <span
-					class="loading-word">正在提交...</span>
+				<img class="loading-gif" src="img/loading.gif">
+				<span class="loading-word">正在提交...</span>
 			</div>
 		</div>
 

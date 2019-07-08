@@ -41,14 +41,14 @@ router.beforeEach((to, from, next) => {
   if (to.meta.title) {
     window.document.title = to.meta.title
   }
-  next()
+  //next()
   //解决vue项目中路由不匹配或者路径错误，添加默认404页面的方法
-  /* if (to.matched.length === 0) { //匹配前往的路由不存在
+   if (to.matched.length === 0) { //匹配前往的路由不存在
     from.name ? next({
       name: from.name
-    }) : next('/errorinfo'); //判断此跳转路由的来源路由是否存在，存在的情况跳转到来源路由，否则跳转到404页面
+    }) : next('/'); //判断此跳转路由的来源路由是否存在，存在的情况跳转到来源路由，否则跳转到404页面
   } else {
     next(); //如果匹配到正确跳转
-  } */
+  } 
 
 })

@@ -1253,3 +1253,7 @@ a:hover{
 .el-picker-panel__body .cell{
 	color: #000 !important;
 }
+
+.el-range-input:nth-of-type(2){
+	margin-left: 10px
+}
