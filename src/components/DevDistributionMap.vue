@@ -308,22 +308,17 @@
                     devClass = 'car';
                     cover = new CarDivOverlayConstructor(baiduPoint, devCode); // 调用百度地图API，绘制设备
                     map.addOverlay(cover);
-                    //cover.hide();
                     break;
                 case 2:
                     devClass = 'single';
                     cover = new SingleDivOverlayConstructor(baiduPoint, devCode); // 调用百度地图API，绘制设备
                     map.addOverlay(cover);
-                    //cover.hide();
                     break;
-                /**add by gaochao start */
                 case 3:
                     devClass = 'single';
                     cover = new SingleOutSideOverlayConstructor(baiduPoint, devCode); // 调用百度地图API，绘制设备
                     map.addOverlay(cover);
-                    //cover.hide();
                     break;
-                /**add by gaochao end*/
                 default:
                     devClass = 'null';
                     break;
