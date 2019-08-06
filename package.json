@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bmap": "^1.0.1",
+    "devtools": "0.0.0",
     "echarts": "^4.2.0-rc.2",
     "element-ui": "^2.9.1",
     "moment": "^2.24.0",

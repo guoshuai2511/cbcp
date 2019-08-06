@@ -19,19 +19,21 @@ Vue.component('bml-marker-clusterer', BmlMarkerClusterer)
 /*引进cookie*/
 import VueCookies from 'vue-cookies'
 /*vuex*/
-import Vuex from 'vuex'
+//import Vuex from 'vuex'已经在vuex中写store.js
+import store from './vuex/store' // 引入store
 
 Vue.use(VueCookies)
 
 Vue.config.productionTip = false
 Vue.use(ElementUI);
-Vue.use(Vuex);
+//Vue.use(Vuex); 已经在vuex中写store.js
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  store
 })
 //设置页面title
 

@@ -8,37 +8,37 @@
 						<!-- 案件名称 -->
 						<div class="input-group input-group-sm search-item search-item-width-sm">
 							<span class="input-group-addon input-group-title" id="query-case-name">案件名称</span>
-							<input type="text" class="input-background" id="case-name-value">
+							<input type="text" class="input-background input-space-forbidden" id="case-name-value">
 						</div>
 						<!-- 工作对象 -->
 						<div class="input-group input-group-sm search-item search-item-width-sm">
 							<span class="input-group-addon input-group-title" id="query-work-object">工作对象</span>
-							<input type="text" class="input-background" id="work-object-value">
+							<input type="text" class="input-background input-space-forbidden" id="work-object-value">
 						</div>
 						<!-- 电信标识码 -->
 						<div class="input-group input-group-sm search-item search-item-width-sm">
 							<span class="input-group-addon input-group-title" id="query-tel-code">电信标识码</span> 
-							<input type="text" class="input-background" id="tel-code-value" maxlength="11">
+							<input type="text" class="input-background input-space-forbidden" id="tel-code-value" maxlength="11">
 						</div>
 						<!-- IMSI码 -->
 						<div class="input-group input-group-sm search-item search-item-width-sm">
 							<span class="input-group-addon input-group-title" id="query-imsi-code">IMSI码</span> 
-							<input type="text" class="input-background" id="imsi-code-value" maxlength="15">
+							<input type="text" class="input-background input-space-forbidden" id="imsi-code-value" maxlength="15">
 						</div>
 						<!-- IMEI码 -->
 						<div class="input-group input-group-sm search-item search-item-width-sm">
 							<span class="input-group-addon input-group-title" id="query-imei-code">IMEI码</span> 
-							<input type="text" class="input-background" id="imei-code-value" maxlength="15">
+							<input type="text" class="input-background input-space-forbidden" id="imei-code-value" maxlength="15">
 						</div>
 						<!-- 设备名称 -->
 						<div class="input-group input-group-sm search-item search-item-width-sm">
 							<span class="input-group-addon input-group-title" id="query-dev-name">设备名称</span> 
-							<input type="text" class="input-background" id="dev-name-value">
+							<input type="text" class="input-background input-space-forbidden" id="dev-name-value">
 						</div>
 						<!-- 办案人 -->
 						<div class="input-group input-group-sm search-item search-item-width-sm">
 							<span class="input-group-addon input-group-title" id="query-case-operator">办案人</span> 
-							<input type="text" class="input-background" id="case-operator-value">
+							<input type="text" class="input-background input-space-forbidden" id="case-operator-value">
 						</div>
 						<!-- 所属机构 -->
 						<div class="input-group input-group-sm search-item search-item-width-sm">

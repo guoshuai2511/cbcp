@@ -1,5 +1,5 @@
 <template>
-  <header class="top-header"  id="top-header">
+  	<header class="top-header"  id="top-header">
 		<div class="top-header-menu">
 			<div class="header-menu-content">
 				<div class="header-menu-item header-menu-item-active" data-menu-index="0" onclick="window.location.href='http://localhost:9090/#/home'">总览</div>
@@ -10,7 +10,7 @@
 					<p style="width: 11px;height: 9px;background:url('img/iconpic/slide.png') no-repeat;background-size:100% 100%;position:absolute;top:14px;left:80%;"></p>
 				</div>
 				<div class="header-menu-dropdown header-menu-dropdown-1">
-					<div class="header-menu-dropdown-item" onclick="window.location.href='commandManage/realTimeCombat'">实时作战</div>
+					<div class="header-menu-dropdown-item" onclick="window.location.href='http://localhost:9090/#/commandManage/realTimeCombat'">实时作战</div>
 					<div class="header-menu-dropdown-item" onclick="window.location.href='http://localhost:9090/#/commandManage/combatReplay'">历史回放</div>
 				</div>
 			</div>
@@ -48,7 +48,10 @@
 					<div class="header-menu-dropdown-item" onclick="window.location.href='http://localhost:9090/#/systemManage/enforceLog'">执法日志管理</div>
 				</div>
 			</div>
-    </div>
+    	</div>
+		<div class="sum_money">
+			{{$store.state.count}}¥
+		</div>
 	</header>
 </template>
 

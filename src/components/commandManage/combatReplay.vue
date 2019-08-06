@@ -519,30 +519,23 @@
 					</div>
 					<div class="search-type-all">
 						<!-- 作战成员 -->
-						<div
-							class="input-group input-group-sm search-item search-item-width-sm">
+						<div class="input-group input-group-sm search-item search-item-width-sm">
 							<span class="input-group-addon input-group-title" id="query-id">作战成员</span>
-							<input type="text" class="form-control input-background"
-								id="query-user-name">
+							<input type="text" class="input-background" id="query-user-name">
 						</div>
 						<!-- 作战城市 -->
-						<div
-							class="input-group input-group-sm search-item search-item-width-sm">
+						<div class="input-group input-group-sm search-item search-item-width-sm">
 							<span class="input-group-addon input-group-title" id="query-id">作战城市</span>
-							<input type="text" class="form-control input-background"
-								id="query-area-code">
+							<input type="text" class="input-background" id="query-area-code">
 						</div>
 						<!-- 设备编号-->
-						<div
-							class="input-group input-group-sm search-item search-item-width-sm">
-							<span class="input-group-addon input-group-title"
-								id="query-phone-num">设备编号</span> <input type="text"
-								class="form-control input-background" id="query-dev-code">
+						<div class="input-group input-group-sm search-item search-item-width-sm">
+							<span class="input-group-addon input-group-title" id="query-phone-num">设备编号</span> 
+							<input type="text" class="input-background" id="query-dev-code">
 						</div>
 						<!-- 评分-->
-						<div
-							class="input-group input-group-sm search-item search-item-width-sm">
-							<span class="input-group-addon input-group-title">评分(大于或等于)</span>
+						<div class="input-group input-group-sm search-item search-item-width-sm">
+							<span class="input-group-addon input-group-title" style="width:140px;">评分(大于或等于)</span>
 							<div class="grade-star-container" data-selected-num="0">
 								<div class="grade-star-icon gray-cover" data-star-index="0"
 									data-is-clicked="0"></div>
@@ -558,74 +551,78 @@
 							<span class="grade-star-reset">重置</span>
 						</div>
 						<!-- 持续时长-->
-						<div
-							class="input-group input-group-sm search-item search-item-width-md">
-							<span class="input-group-addon input-group-title"
-								id="query-phone-num">持续时长</span> <span class="input-inwords">大于</span><input
-								type="text" id="query-mix-working-time"
-								class="form-control input-background input-data-picker-sm"><span
-								class="input-inwords">分钟，小于</span><input type="text"
-								id="query-max-working-time"
-								class="form-control input-background input-data-picker-sm"><span
-								class="input-inwords">分钟</span>
+						<div class="input-group input-group-sm search-item search-item-width-md" style="width:500px;">
+							<span class="input-group-addon input-group-title" id="query-phone-num">
+								持续时长
+							</span>
+							<span class="input-inwords">
+								大于
+							</span>
+							<input type="text" id="query-mix-working-time" class="input-background input-data-picker-sm">
+							<span class="input-inwords">
+								分钟，小于
+							</span>
+							<input type="text" id="query-max-working-time" class="input-background input-data-picker-sm">
+							<span class="input-inwords">
+								分钟
+							</span>
 						</div>
 						<!-- 时间范围选择-->
-						<div class="time-range-selector">
+						<div class="time-range-selector" style="width:920px;">
 							<form>
-								<div
-									class="time-range-selector-item time-range-selector-type-radio">
-									<label class="mdui-radio"> <input type="radio"
-										id="query-time-all" name="group1" checked /> <i
-										class="mdui-radio-icon"></i>全部
+								<div class="time-range-selector-item time-range-selector-type-radio">
+									<label class="mdui-radio"> 
+										<input type="radio" id="query-time-all" name="group1" checked />
+										<i class="mdui-radio-icon"></i>
+										全部
 									</label>
 								</div>
-								<div
-									class="time-range-selector-item time-range-selector-type-radio">
-									<label class="mdui-radio"> <input type="radio"
-										id="query-time-day" name="group1" /> <i
-										class="mdui-radio-icon"></i>今天
+								<div class="time-range-selector-item time-range-selector-type-radio">
+									<label class="mdui-radio"> 
+										<input type="radio" id="query-time-day" name="group1" />
+										<i class="mdui-radio-icon"></i>
+										今天
 									</label>
 								</div>
-								<div
-									class="time-range-selector-item time-range-selector-type-radio">
-									<label class="mdui-radio"> <input type="radio"
-										id="query-time-week" name="group1" /> <i
-										class="mdui-radio-icon"></i>本周
+								<div class="time-range-selector-item time-range-selector-type-radio">
+									<label class="mdui-radio"> 
+										<input type="radio" id="query-time-week" name="group1" /> 
+										<i class="mdui-radio-icon"></i>
+										本周
 									</label>
 								</div>
-								<div
-									class="time-range-selector-item time-range-selector-type-radio">
-									<label class="mdui-radio"> <input type="radio"
-										id="query-time-month" name="group1" /> <i
-										class="mdui-radio-icon"></i>本月
+								<div class="time-range-selector-item time-range-selector-type-radio">
+									<label class="mdui-radio">
+										<input type="radio" id="query-time-month" name="group1" /> 
+										<i class="mdui-radio-icon"></i>
+										本月
 									</label>
 								</div>
-								<div
-									class="time-range-selector-item time-range-selector-type-radio">
-									<label class="mdui-radio"> <input type="radio"
-										id="query-time-halfyear" name="group1" /> <i
-										class="mdui-radio-icon"></i>最近半年
+								<div class="time-range-selector-item time-range-selector-type-radio">
+									<label class="mdui-radio"> 
+										<input type="radio" id="query-time-halfyear" name="group1" /> 
+										<i class="mdui-radio-icon"></i>
+										最近半年
 									</label>
 								</div>
-								<div
-									class="time-range-selector-item time-range-selector-type-radio">
-									<label class="mdui-radio"> <input type="radio"
-										id="query-time-year" name="group1" /> <i
-										class="mdui-radio-icon"></i>最近一年
+								<div class="time-range-selector-item time-range-selector-type-radio">
+									<label class="mdui-radio"> 
+										<input type="radio" id="query-time-year" name="group1" /> 
+										<i class="mdui-radio-icon"></i>
+										最近一年
 									</label>
 								</div>
-								<div
-									class="time-range-selector-item time-range-selector-type-radio"
-									id="custom-type-selector">
-									<label class="mdui-radio"> <input type="radio"
-										id="query-time-costume" name="group1" />
-										<i class="mdui-radio-icon"></i> 自定义
+								<div class="time-range-selector-item time-range-selector-type-radio" id="custom-type-selector">
+									<label class="mdui-radio"> 
+										<input type="radio" id="query-time-costume" name="group1" />
+										<i class="mdui-radio-icon"></i>
+										自定义
 									</label>
 								</div>
 								<div class="time-range-selector-item" id="custom-type-input" style="margin-left: 10px; margin-top: 1px; display: none;">
 									<div class="block">
-										<el-date-picker v-model="datePickerTime" type="monthrange" range-separator="至" start-placeholder="开始时间" end-placeholder="结束时间" value-format="yyyy-MM-ddHH:mm:ss">
-										</el-date-picker>
+										<el-date-picker v-model="value1" type="datetimerange" range-separator="至" start-placeholder="开始日期" end-placeholder="结束日期">
+    									</el-date-picker>
 									</div>
 								</div>
 							</form>
@@ -639,9 +636,12 @@
 					<div class="guide-search-btn mdui-ripple">
 					</div>
 					<div class="search-mode-switch">
-						<span id="search-mode-title-1">条件太少？</span><span class="text-blue"
-							id="search-mode-title-2" data-search-type="0"
-							style="cursor: pointer; text-decoration: underline;">高级搜索</span>
+						<span id="search-mode-title-1">
+							条件太少？
+						</span>
+						<span class="text-blue" id="search-mode-title-2" data-search-type="0" style="cursor: pointer; text-decoration: underline;" @click="switchSearchModal()">
+							高级搜索
+						</span>
 					</div>
 				</div>
 			</div>
@@ -1037,14 +1037,42 @@
                         }
                     }]
                 },
-                datePickerTime: '',//获取input框中的时间
+				datePickerTime: '',//获取input框中的时间
+				value1: '',
 			}
 		},
 		methods:{
+			//切换搜索模式
+			switchSearchModal(){
+				//$(document).on('click','#search-mode-title-2',function(){
+					let data_search_type = $('#search-mode-title-2').attr('data-search-type');
+					if(data_search_type == 0){ //切换到高级搜索模式
+						$('.search-type-simple').css('display','none');
+						$('.search-type-all').css('display','block');
+						$('#table-view-container-box').css('height','140px')
+						$('#search-mode-title-2').attr('data-search-type',1);
+					}else{//切换到模糊搜索模式
+						$('.search-type-simple').css('display','block');
+						$('.search-type-all').css('display','none');
+						$('#table-view-container-box').css('height','80px')
+						$('#search-mode-title-2').attr('data-search-type',0);
+					}
+				//})
+			},
+			/* 时间范围选择点击*/
+			timeScopeSelectClick(){
+				$('.time-range-selector-type-radio').mousedown(function () {
+					if ($(this).attr('id') == 'custom-type-selector') {
+						$('#custom-type-input').css('display', 'block');
+					} else {
+						$('#custom-type-input').css('display', 'none');
+					}
+				});
+			}
 			
 		},
 		mounted() {
-				
+			this.timeScopeSelectClick();
 		},
   	}
 </script>
@@ -1053,6 +1081,6 @@
 	@import "../../../static/css/common.css"; 
 	@import "../../../static/mdui-v0.4.0/css/mdui.min.css";
 	@import "../../../static/css/cover.css"; 
-	@import "../../../static/css/page/combatReplay.css"; 
 	@import "../../../static/css/table-view.css"; 
+	@import "../../../static/css/page/combatReplay.css"; 
 </style>

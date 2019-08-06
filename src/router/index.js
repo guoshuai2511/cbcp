@@ -101,6 +101,15 @@ export default new Router({
       meta:{
         title: '案件筛查'
       }
+    },{
+      path:'/commandManage/realTimeCombat',
+      name: 'realTimeCombat',
+      component: (resolve) => {
+        require(['@/components/commandManage/realTimeCombat.vue'], resolve)
+      },
+      meta:{
+        title: '实时作战'
+      }
     },
   ]
 })

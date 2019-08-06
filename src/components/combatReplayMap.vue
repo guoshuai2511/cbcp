@@ -7,7 +7,6 @@
 
 <script type="text/javascript">
   import $axios from 'axios';
-  import { CarDivOverlayConstructor } from '../../static/lib/CarDivOverlayConstructor.js';
   import { SingleDivOverlayConstructor } from '../../static/lib/SingleDivOverlayConstructor.js';
   let map;
   export default { //这里需要将模块引出，可在其他地方使用

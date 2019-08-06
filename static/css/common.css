@@ -865,3 +865,11 @@ input[type=checkbox]:checked::after{
 .dropdown-toggle::after{
 	display: none !important;
 }
+
+.sum_money{
+	width: 100px;
+    height: 50px;
+    float: right;
+	line-height: 50px;
+	color: #fff;
+}
