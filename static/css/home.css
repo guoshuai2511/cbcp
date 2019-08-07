@@ -1153,9 +1153,9 @@ a:hover{
 	width: 26px;
 	height: 28px;
 	position: absolute;
-	top: 50%;
+	top: -25%;
 	margin-top: -14px;
-	right: -4px;
+	right: -14px;
 	background: url(../../static/img/iconpic/finished.png);
 	background-size: 100% 100%;
 }
