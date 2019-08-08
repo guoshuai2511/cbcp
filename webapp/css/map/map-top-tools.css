@@ -1,0 +1,66 @@
+.top-map-tools-area {
+	height: 60px;
+	position: absolute;
+	/*delete by guoshuai start 2018-10-23
+	top: 50px;
+	*/
+	/*add by guoshuai start 2018-10-23*/
+	top: 58px;
+	/*add by guoshuai end 2018-10-23*/
+	left: 50%;
+}
+
+.map-tools-block {
+	width: auto;
+	height: 46px;
+	position: relative;
+	float: left;
+	margin-top: 8px;
+	margin-right: 10px;
+	background: #fff;
+	border-radius: 4px;
+	overflow: auto;
+}
+
+.tool-icon {
+	width: 40px;
+	height: 30px;
+	position: relative;
+	float: left;
+	margin-top: 8px;
+	margin-left: 6px;
+	margin-right: 6px;
+	background: url("../../img/iconlib_new.png") no-repeat;
+	cursor: pointer;
+}
+
+.tool-divide-line {
+	width: 1px;
+	height: 30px;
+	position: relative;
+	float: left;
+	margin-top: 8px;
+	background: rgb(189, 189, 189);
+}
+
+.eng-audio-selector-menu {
+	width: 53px;
+	height: auto;
+	position: absolute;
+	top: 60px;
+	left: 316px;
+	background: #fff;
+	border-radius: 4px;
+	overflow: auto;
+}
+
+.eng-audio-selector-item {
+	width: 40px;
+	height: 30px;
+	position: relative;
+	margin-left: 8px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background: url("../../img/iconlib_new.png") no-repeat;
+	cursor: pointer;
+}

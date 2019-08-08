@@ -1,0 +1,421 @@
+.view-default-btn {
+	width: 29px;
+	height: 29px;
+	position: absolute;
+	left: 25px;
+	bottom: 30px;
+	background: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.view-default-btn-bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("../../img/icon-lib.png") no-repeat;
+	background-position: -180px -30px;
+}
+
+.view-switch {
+	width: 70px;
+	height: 60px;
+	position: absolute;
+	left: 70px;
+	bottom: 30px;
+}
+
+.view-current-dev {
+	width: 70px;
+	height: 60px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.view-current-username {
+	display: block;
+	width: 65px;
+	margin-left: 7px;
+	color: #566ae2;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.view-current-dev-img-car {
+	width: 44px;
+	height: 22px;
+	position: absolute;
+	left: 5px;
+	bottom: 7px;
+}
+
+.view-current-dev-img-single {
+	width: 50px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+/**add by gaochao start */
+.view-current-dev-img-outside {
+	width: 50px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+/**add by gaochao end*/
+
+.view-current-dev i {
+	position: absolute;
+	right: 0;
+	bottom: 7px;
+}
+
+.view-switch-chooser {
+	width: 80px;
+	position: absolute;
+	left: -14px;
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.choose-container {
+	width: 64px;
+	height: 70px;
+	position: relative;
+	margin-left: 8px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.choose-container:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.choose-container .choose-item-img-car {
+	width: 44px;
+	height: 22px;
+	position: absolute;
+	left: 10px;
+	top: 37px;
+}
+
+.choose-container .choose-item-img-single {
+	width: 50px;
+	height: 40px;
+	position: absolute;
+	left: 2px;
+	top: 26px;
+}
+
+.choose-container span {
+	width: 64px;
+	position: absolute;
+	top: 5px;
+	color: #566ae2;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.choose-divide-line {
+	width: 64px;
+	height: 1px;
+	position: relative;
+	margin-left: 8px;
+	margin-top: -1px;
+	background: rgb(193, 193, 193);
+}
+
+/* 时间轴*/
+.time-line-area {
+	width: 0;
+	/* 初始必须为0*/
+	/*add by gaochao start*/
+	height: 70px;
+	/*add by gaochao end*/
+	position: absolute;
+	left: 150px;
+	bottom: 10px;
+}
+
+.eng-column-chart {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	/**edti by gaochao start */
+	top: -6px;
+	/**edit by gaochao end */
+	overflow: hidden;
+}
+
+.eng-column-chart-container {
+	height: 30px;
+	position: absolute;
+}
+
+.eng-column-value {
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+.time-line-container {
+	width: 100%;
+	/*add by gaochao start*/
+	height: 21px;
+	/*add by gaochao end*/
+	position: absolute;
+	left: 0;
+	top: 36px;
+	background: #FFFFFF00;
+	overflow: hidden;
+	/**add by gaochao start */
+	border: solid 1px #174275;
+	border-radius: 10px;
+	/**add by gaochao end*/
+}
+
+.time-line-slider {
+	width: 100%;
+	/**add by gaochao start */
+	height: 10px;
+	/**add by gaochao end*/
+	position: absolute;
+	bottom: 0;
+}
+
+.time-line-divider-container {
+	/*add by gaochao start*/
+	height: 20px;
+	/*add by gaochao end*/
+	position: absolute;
+}
+
+.time-line-divider-long {
+	width: 1px;
+	height: 12px;
+	position: relative;
+	float: left;
+	margin-top: 18px;
+	background: rgb(224, 224, 224);
+}
+
+.time-line-divider-short {
+	width: 1px;
+	height: 6px;
+	position: relative;
+	float: left;
+	margin-top: 24px;
+	background: rgb(224, 224, 224);
+}
+
+.time-line-divider-time {
+	width: 36px;
+	position: absolute;
+	left: -18px;
+	top: -17px;
+	color: rgb(224, 224, 224);
+	font-size: 12px;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+.time-line-blue-cover {
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/**add by gaochao start */
+	background: rgb(15, 65, 126);
+	/**add by gaochao end*/
+}
+
+.time-line-marker {
+	width: 5px;
+	/*add by gaochao start*/
+	height: 20px;
+	/*add by gaochao end*/
+	position: absolute;
+	margin-left: -2px;
+	top: 0;
+	background: url("../../img/icon-lib.png") no-repeat;
+	background-position: -45px -65px;
+}
+
+#time-line-click-cover {
+	cursor: pointer;
+}
+
+/**add by gaochao start*/
+
+.bottom-time-line-container {
+	position: absolute;
+	bottom: 3px;
+	left: 15px;
+	width: calc(100% - 30px);
+	height: 50px;
+	background: rgba(7, 24, 48, 1);
+	border-radius: 7px;
+}
+
+.play-btn-container {
+	position: absolute;
+	left: 122px;
+	top: 15px;
+	width: 42px;
+	height: 22px;
+	background: url('../../img/icon/play.png');
+	cursor: pointer;
+}
+
+.stop-btn-container {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 95px;
+    height: 26px;
+    background: url(../../img/icon/stop.png) no-repeat;
+    cursor: pointer;
+}
+
+.case-time-container {
+	position: absolute;
+	right: 76px;
+	top: 19px;
+	width: 110px;
+	height: 13px;
+}
+
+.case-time {
+	position: relative;
+	float: left;
+	height: 13px;
+	font-size: 13px;
+	font-weight: 400;
+	color: rgba(23, 193, 244, 1);
+	line-height: 13px;
+}
+
+.case-time-all {
+	position: relative;
+	float: left;
+	height: 13px;
+	font-size: 13px;
+	font-weight: 400;
+	color: rgba(23, 193, 244, 1);
+	line-height: 13px;
+}
+
+.speed-switch-btn {
+	position: absolute;
+	right: 13px;
+	top: 13px;
+	width: 46px;
+	height: 22px;
+	background: rgba(8, 38, 74, 1);
+	border: 1px solid rgba(23, 66, 117, 1);
+	cursor: pointer;
+}
+
+.speed-switch-value {
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	width: 20px;
+	height: 11px;
+	font-size: 12px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	line-height: 11px;
+	text-align: center;
+}
+
+.speed-switch-dropup {
+	position: absolute;
+	float: left;
+	top: 6px;
+	right: 2px;
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 8px solid rgba(54, 153, 255, 1);
+}
+
+.speed-switch-content {
+	position: absolute;
+	bottom: 52px;
+	right: 14px;
+	width: 46px;
+	height: 280px;
+	background: rgba(8, 38, 74, 1);
+	border: 1px solid rgba(26, 60, 105, 1);
+	z-index: 30;
+	color: #FFFFFF;
+	font-size: 14px;
+	display: none;
+}
+
+.speed-switch-item {
+	position: relative;
+	width: 100%;
+	height: 39px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.speed-switch-item-line {
+	position: relative;
+	left: 5px;
+	width: 36px;
+	height: 1px;
+	background: rgba(14, 52, 99, 1);
+}
+
+.view-current-dev-icon-single {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	/* background: url("../../img/icon/single_view_0.png") no-repeat; */
+	background-size: cover;
+}
+
+.view-current-dev-icon-car {
+	position: absolute;
+	left: 14px;
+	top: 14px;
+	width: 40px;
+	height: 24px;
+	/* background: url("../../img/icon/car_view_0.png") no-repeat; */
+	background-size: cover;
+}
+.view-current-username-content{
+    position: absolute;
+    left: 56px;
+    top: 15px;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    color: #17C1F4;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/**add by gaochao end*/

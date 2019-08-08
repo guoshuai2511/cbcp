@@ -1,0 +1,98 @@
+.energy-scale {
+	width: 110px;
+	height: 130px;
+	position: absolute;
+	left: 12px;
+	top: 260px;
+}
+
+.energy-scale-content {
+	width: 120px;
+	height: 20px;
+	position: absolute;
+	height: 20px;
+}
+
+.energy-scale-color {
+	width: 35px;
+	height: 20px;
+	position: absolute;
+	border-radius: 5px;
+}
+
+.energy-scale-word {
+	position: absolute;
+	left: 40px;
+	line-height: 20px;
+	font-weight: 600;
+	text-shadow: 0 0 5px #fff;
+}
+
+.energy-scale-content-details {
+	position: absolute;
+	top: 125px;
+	font-weight: 600;
+	text-shadow: 0 0 5px #fff;
+	font-weight: 600;
+}
+
+.car-speed {
+	width: 71px;
+	height: 71px;
+	position: absolute;
+	top: 65px;
+	left: 170px;
+	background: #fff;
+	border: 4px solid rgb(19, 119, 249);
+	border-radius: 50%;
+	color: rgb(19, 119, 249);
+}
+
+.car-speed-value {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	font-size: 35px;
+	line-height: 52px;
+}
+
+.car-speed-kmh {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+	line-height: 100px;
+}
+
+.continous-time {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background: #fff;
+	border: 2px solid #594d9c;
+	border-radius: 50%;
+	color: #594d9c;
+	cursor: default;
+}
+
+.continous-time-title {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	line-height: 35px;
+}
+
+.continous-time-value {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	font-size: 18px;
+	text-align: center;
+	line-height: 86px;
+	text-align: center;
+}

@@ -1,0 +1,691 @@
+.remote-command-containers{
+	width:369px;
+	height:auto;
+	background:rgba(255,255,255,1);
+	border-radius: 9px;
+	display: none;
+	position: absolute;
+	z-index: 20;
+	font-family: PingFang-SC-Bold;
+	left: 20px;
+    top: 50px;
+}
+
+.remote-command-containers-header{
+	height: 40px;
+	width: 100%;
+}
+
+.remote-command-containers-header_title{
+	float: left;
+	width: 80%;
+	cursor: move;
+}
+
+.rc_red_point{
+	width:10px;
+	height:10px;
+	background:rgba(239,37,38,1);
+	border-radius: 50%;
+	float: left;
+	margin-left: 13px;
+    margin-top: 14px;
+}
+
+.rc_title_word{
+	width:56px;
+	height:20px;
+	font-size:14px;
+	font-family:PingFang-SC-Bold;
+	font-weight:bold;
+	color:rgba(51,51,51,1);
+	line-height:20px;
+	float: left;
+	margin-top: 9px;
+    margin-left: 4px;
+}
+
+.remote-command-containers-header_close{
+	float: left;
+	width: 17px;
+    height: 17px;
+    background: url('../../img/iconpic/CR-close.png') no-repeat;
+    background-size: 100% 100%;
+    float: right;
+    margin-right: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.remote-command-containers-content{
+	width: 100%;
+	height: 600px;
+	padding-left: 12px;
+	padding-right: 12px;
+	display: none;
+}
+
+.rc_content_header{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #e7e7e7;
+	padding-bottom: 10px;
+}
+.click_div{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+.strike_click{
+	margin-left: 35px;
+}
+
+.preLock_click{
+	margin-right: 35px;
+	margin-left: 35px;
+}
+
+.click_active{
+	color: #2A8CFF;
+	border-bottom: 2px solid #2A8CFF;
+}
+
+.remote-command-main{
+	width: 100%;
+	height: 560px;
+	padding-left: 17px;
+	float: left;
+	position: relative;
+	padding-right: 17px;
+}
+
+.rc_title-type{
+	width: 70px;
+    height: 20px;
+    font-size: 14px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #666666;
+    line-height: 20px;
+	margin-top: 28px;
+	margin-bottom: 4px;
+}
+
+.rc_message-type{
+	width: 312px;
+    height: 34px;
+    background: rgba(244,249,255,1);
+    border: 1px solid rgba(223,234,246,1)
+}
+
+.rc_selector_div{
+	width: 300px;
+    height: 32px;
+    background: rgba(244,249,255,1);
+    line-height: 32px;
+	padding-left: 15px;
+	float: left;
+}
+
+.rc_selector_arrow{
+	float: left;
+}
+
+.rc_message-type-ul{
+	display: none;
+	position: absolute;
+    z-index: 1;
+    width: 312px;
+    height: auto;
+    background: #ccc;
+    margin-top: 2px;
+}
+
+.strike_click_start{
+	line-height: 40px;
+    width: 282px;
+    height: 40px;
+    background: rgba(42,140,255,1);
+    border-radius: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+	color: #fff;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.decode_input{
+	width: 312px;
+    height: 34px;
+    background: rgba(244,249,255,1);
+    line-height: 34px;
+    border: 1px solid rgba(223,234,246,1);
+	padding-left: 15px;
+	outline: none;
+}
+
+.decode_input ::-webkit-input-placeholder{
+	color: #ABB4BE
+}
+
+.remote-command-preLock{
+	display: none;
+}
+
+.remote-command-active{
+	display: none;
+}
+
+.remote-command-containers-footer{
+	width: 100%;
+    height: 60px;
+    background: #F4F4F4;
+    border-radius: 0px 0px 9px 9px;
+    padding-left: 29px;
+}
+
+.cr_directing{
+	color: #52B272;
+	font-size: 12px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+}
+
+.cr_waiting{
+	color: #F39800;
+	font-size: 12px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+}
+
+.cr_reject{
+	color: #666666;
+	font-size: 12px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+}
+
+.remote_directing{
+	display: none;
+}
+
+.wait_concatenate{
+	display: none;
+}
+
+._disconnect{
+	display: block;
+}
+
+.rc_modal-footer-right{
+	width: 70px;
+    height: 28px;
+    border-radius: 14px;
+    float: right;
+    color: #fff;
+    margin-right: 16px;
+    margin-top: 14px;
+    line-height: 28px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#cr_directing{
+	background: #EF2526;
+}
+
+#cr_waiting{
+	background: #F39800;
+}
+
+#cr_reject{
+	background: #52B272;
+}
+
+.rc_modal-footer-left{
+	float: left;
+}
+
+.rc_footer_disCode{
+	width: 230px;
+    height: 20px;
+    font-size: 14px;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: #333;
+	line-height: 20px;
+	margin-top: 8px;
+}
+
+.selecte-button{
+	cursor: pointer;
+}
+
+.rc_drow_style{
+	width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+	cursor: pointer;
+	font-size: 13px;
+}
+.rc_drow_style:hover{
+	background: #999;
+	color: #f0f0f0;
+}
+
+.myCheckBox label{ 
+	width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 2px;
+    left: -1px;
+    border: 1px solid #17c1f4;
+    background: #08264a;
+    cursor: pointer;
+}
+
+.select-host-block{
+	width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid rgb(59, 180, 242);
+    border-radius: 0;
+    float: left;
+    margin-right: 4px;
+	margin-top: 11px;
+	cursor: pointer;
+}
+
+.select-host-block-active{
+	background: rgb(59, 180, 242);
+    border: none;
+    outline: none;
+}
+
+.select-host-block-active::after{
+    content: '';
+    position: absolute;
+    background: transparent;
+    border: #fff solid 2px;
+    border-top: none;
+    border-right: none;
+    height: 6px;
+	width: 11px;
+	left: 2px;
+    top: 3px;
+    -moz-transform: rotate(-52deg);
+    -ms-transform: rotate(-52deg);
+    -webkit-transform: rotate(-52deg); 
+    transform: rotate(-52deg);
+}
+.pre_bts_lock{
+    margin-top: 10px;
+}
+
+.bts_title{
+	width: 56px;
+    height: 20px;
+    font-size: 14px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #2A8CFF;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.bts_id_title{
+	width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #666666;
+    margin-top: 6px;
+}
+
+.bts_id_ci_word{
+	margin-left: 140px;
+}
+
+.bts_id_input{
+	width: 150px;
+    height: 34px;
+    background: rgba(244,249,255,1);
+    border: 1px solid rgba(223,234,246,1);
+	float: left;
+	padding-left: 6px;
+	outline: none;
+}
+
+#bts_id_tac{
+	margin-right: 11px;
+}
+
+.bts_common_box{
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+}
+
+.radio_selecte_box{
+	padding-left: 247px;
+}
+
+.bts_info_list_header{
+	margin-top: 6px;
+	background: #A2B9D5;
+	color: #fff;
+	font-size:13px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+}
+
+.pre_bts_locked_list{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color: #333
+}
+
+.list_common_span{
+	float: left;
+	text-align: center;
+	height: 100%;
+}
+
+.host_bts_img{
+	width: 30px;
+}
+
+.bts_freq{
+	width: 80px;
+}
+
+.bts_tac{
+	width: 100px;
+}
+
+.bts_gps{
+	width: 40px;
+}
+
+.bts_operation{
+	width: 61px;
+}
+
+#host_img{
+	background: url('../../img/iconpic/pre_host_img.png') no-repeat;
+	cursor: pointer;
+	width: 16px;
+	height: 20px;
+	background-size: 100% 100%;
+	display: block;
+	margin: 0 auto;
+    margin-top: 5px;
+}
+
+#gps_img{
+	background: url('../../img/iconpic/lng_lat_img.png') no-repeat;
+	cursor: pointer;
+	background-size: 100% 100%;
+	display: block;
+	width: 10px;
+	height: 14px;
+	margin: 0 auto;
+    margin-top: 8px;
+}
+
+.unlock_pre_bts{
+	cursor: pointer;
+	padding: 4px 10px;
+	color: #fff;
+	font-family: PingFang-SC-Medium;
+	font-weight: 500;
+	background: #F39800;
+}
+
+.pre_bts_locked_list_even{
+	background: #F4F9FF;
+}
+
+.new_modal-header{
+	padding: 0;
+    height: 40px;
+    line-height: 40px;
+    background: #F6F6F6;
+    border-radius: 6px 6px 0px 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    color: #333;
+    font-weight: 500;
+}
+
+.new_modal-body{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #666666;
+}
+
+.new_modal-footer{
+	margin-bottom: 16px;
+}
+
+.new_btn-type{
+	margin-left: 109px;
+	width: 80px;
+	height: 30px;
+	background: #2a8cff;
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	outline: none;
+}
+
+.CheckBox label{ 
+	height: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 2px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 16px;
+}
+
+.CheckBox{
+	float: left;
+    margin-left: 52px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.CheckBox input:checked + label{
+	border-color: #2A8CFF;
+}
+
+.CheckBox input:checked + label:after{ 
+	content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 3.4px;
+    background: #23b5e8;
+    position: absolute;
+    background: #2A8CFF;
+
+    border-top: none;
+    border-right: none;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    left: 3.4px;
+}
+
+.left_rc{
+	float: left;
+}
+.mode_switch_word{
+	float: left;
+	color: #333;
+	margin-left: 7px;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+}
+
+.line_fg{
+	width: 100%;
+	height: 4px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.channel_rc_recommend{
+	background: url('../../img/iconpic/channel_rc_recommend.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-top: 9px;
+    margin-right: 8px;
+}
+
+.channel_rc_recommend_name{
+	float: left;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	font-size:14px;
+	color: #2A8CFF;
+	margin-right: 12px;
+}
+
+.channel_rc_first{
+	height: 34px;
+    width: 100%;
+	line-height: 34px;
+	margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+.channel_rc_start, .channel_rc_shut_down{
+	cursor: pointer;
+    color: #fff;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    display: block;
+    width: 48px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 4px;
+	margin-top: 5px;
+	float: right;
+}
+
+.channel_rc_shut_down{
+	background: #F63232;
+}
+
+.channel_rc_start{
+	background: #2A8CFF;
+}
+
+.channel_rc_freq_title_div{
+	width: 100%;
+	height: 20px;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color: #666666;
+	margin-bottom: 4px;
+}
+
+.channel_rc_freq_title{
+	width: 100px;
+	margin-right: 5.5px;
+}
+
+.channel_rc_pci_title{
+	width: 100px;
+	margin-right: 5.5px;
+}
+
+.channel_rc_rfpwr_title{
+	width: 100px;
+}
+
+.channel_rc_freq_dr{
+	display: none;
+	position: absolute;
+	margin-top: 2px;
+	z-index: 1;
+	height: auto;
+    background: #ccc;
+	margin-top: 2px;
+	margin-left: -2px;
+	width: 100px;
+}
+
+.channel_dr_style{
+	display: block;
+	padding-left: 12px;
+}
+.channel_dr_button{
+	cursor: pointer;
+	border: 1px solid #DFEAF6;
+}
+
+.channel_freq_active,.channel_pci_active,.channel_rf_active{
+	margin-left: 12px;
+}
+
+.channel_rc{
+	width: 100%;
+	height: 118px;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.dev_lsit{
+	width:240px;
+	height:80px;
+	background:#040e1c;
+	border-radius:2px;
+	opacity: 0.7;
+	position: absolute;
+	bottom: 287px;
+	right: 57px;
+	display: none;
+}
+
+.dev_name{
+	width: 220px;
+	height: 40px;
+	margin: 0 auto;
+	padding-left: 4px;
+	border-bottom: 1px solid #000;
+	line-height: 40px;
+	color: #fff;
+	font-size:14px;
+	font-family:PingFang-SC-Bold;
+	cursor: pointer;
+}
+
+.dev_name:hover{
+	color: #17C1F4
+}

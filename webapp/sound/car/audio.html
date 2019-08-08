@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <audio id="engAudioPlay" src="" hidden="true"></audio>
+</body>
+<script>
+    let audio = document.getElementById('engAudioPlay');
+
+    audio.src = "left_front.wav";
+    audio.play();
+    audio.addEventListener('ended', playValue, false);
+
+    function playValue() {
+        audio.src = "182.wav";
+        audio.play();
+        audio.removeEventListener('ended', playValue, false);
+    }
+
+</script>
+
+</html>

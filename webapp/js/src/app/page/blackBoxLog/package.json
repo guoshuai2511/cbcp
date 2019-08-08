@@ -1,0 +1,11 @@
+{
+  "name": "CBCP-GlobalMonitor",
+  "version": "1.0.0",
+  "description": "CBCP-GlobalMonitor",
+  "scripts": {
+    "start": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
