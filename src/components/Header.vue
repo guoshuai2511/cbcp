@@ -49,9 +49,6 @@
 				</div>
 			</div>
     	</div>
-		<div class="sum_money">
-			{{$store.state.count}}¥
-		</div>
 	</header>
 </template>
 
