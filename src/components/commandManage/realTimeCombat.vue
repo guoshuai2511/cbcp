@@ -1,7 +1,7 @@
 <template>
   	<div class="combatReplayPage" v-wechat-title="$route.meta.title">
 		<!-- 在此设置中框默认显示状态-->
-		<div class="guide-frame" style="display: block; cursor:url('../../static/img/QQ.jpg'),auto">
+		<div class="guide-frame" style="display: block; cursor:url('../../static/img/web_cursor.cur'),auto">
 			<div class="guide-title" style="margin-left: -22px">历史回放</div>
 			<div id="landlord" style="position: absolute; z-index: 1000;">
 				<div class="message" style="opacity:0"></div>
