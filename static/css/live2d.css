@@ -6,7 +6,7 @@
     height: 560px;
     font-size: 0;
     transition: all .3s ease-in-out;
-    background: #cccc;
+    background: pink;
     z-index: 1;
     bottom: 0;
 }
@@ -39,6 +39,7 @@
     animation-iteration-count: infinite;
     animation-name: shake;
     animation-timing-function: ease-in-out;
+    color: #fff;
 }
 
 .hide-button {
